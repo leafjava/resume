@@ -99,7 +99,7 @@ h2 {
 }
 
 .video-section .video-container {
-  max-width: 900px;
+  max-width: 400px;
   margin: 0 auto;
   border-radius: 12px;
   overflow: hidden;
