@@ -39,16 +39,7 @@
         <div class="avatar-container">
           <div class="avatar-glow"></div>
           <div class="avatar-placeholder">
-            <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
-              <circle cx="60" cy="45" r="20" fill="url(#gradient1)"/>
-              <path d="M30 95C30 78 42 70 60 70C78 70 90 78 90 95" stroke="url(#gradient1)" stroke-width="8" stroke-linecap="round"/>
-              <defs>
-                <linearGradient id="gradient1" x1="0" y1="0" x2="120" y2="120">
-                  <stop offset="0%" stop-color="#00F5FF"/>
-                  <stop offset="100%" stop-color="#C026D3"/>
-                </linearGradient>
-              </defs>
-            </svg>
+            <img src="@/assets/image/head.jpg" alt="林燊 | Lin Shen" class="avatar-image" />
           </div>
         </div>
         <div class="floating-elements">
@@ -268,6 +259,13 @@ const downloadResume = () => {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .floating-elements {
