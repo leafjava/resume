@@ -28,6 +28,14 @@
           <span>View Interview on X →</span>
         </div>
       </a>
+      <a 
+        href="https://x.com/Web3Twinkle/status/2022987039571091961" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="view-more-btn"
+      >
+        View Interview on X →
+      </a>
     </section>
 
     <section class="gallery-section">
@@ -175,6 +183,21 @@ h2 {
 .gallery-section .gallery-grid img:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 48px rgba(0, 245, 255, 0.3);
+}
+
+.interview-section .view-more-btn {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 1rem 2rem;
+  background: var(--gradient-primary);
+  color: var(--color-bg);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery-section .view-more-btn {
