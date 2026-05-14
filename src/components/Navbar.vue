@@ -7,7 +7,9 @@
       </div>
       
       <div :class="['nav-menu', { 'active': menuOpen }]">
-        <a href="#home" @click="closeMenu">Home</a>
+        <!-- <a href="#home" @click="closeMenu">Home</a> -->
+        <a @click="routeToPage('/')">Home</a>
+        <a @click="routeToPage('/gwdc')">GWDC Champion</a>
         <a href="#achievements" @click="closeMenu">Achievements</a>
         <a href="#speaking" @click="closeMenu">Speaking</a>
         <a href="#projects" @click="closeMenu">Projects</a>
@@ -28,6 +30,9 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
+import { useRouter } from 'vue-router'
+const router = useRouter()
+
 const isScrolled = ref(false)
 const menuOpen = ref(false)
 
@@ -37,6 +42,12 @@ const handleScroll = () => {
 
 const closeMenu = () => {
   menuOpen.value = false
+}
+
+const routeToPage = (path) => {
+  // Implementation for routing to another page
+  // Example: router.push(path)
+  router.push(path)
 }
 
 onMounted(() => {
@@ -101,9 +112,30 @@ onUnmounted(() => {
   display: flex;
   gap: 2.5rem;
   align-items: center;
+
+  span{
+    cursor: pointer;
+    color: var(--color-text-primary);
+    font-weight: 500;
+    font-size: 0.95rem;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+  span::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--gradient-primary);
+    transition: width 0.3s ease;
+  }
 }
 
 .nav-menu a {
+  cursor: pointer;
   color: var(--color-text-primary);
   font-weight: 500;
   font-size: 0.95rem;
