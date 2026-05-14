@@ -60,7 +60,7 @@
 
     <!-- 冠军图片区域 -->
     <div class="champion-showcase">
-      <div class="champion-image-wrapper">
+      <div class="champion-image-wrapper" @click="routeToPage('/gwdc')">
         <img src="@/assets/image/chanpions.jpg" alt="世界冠军" class="champion-photo" />
         <div class="champion-overlay">
           <span class="champion-badge">🏆 World Champion 2026</span>
@@ -71,9 +71,18 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'
+const router = useRouter()
+
 const downloadResume = () => {
   alert('PDF 简历下载功能 - 请将您的简历 PDF 放在 public 文件夹中')
   // window.open('/resume.pdf', '_blank')
+}
+
+const routeToPage = (path) => {
+  // Implementation for routing to another page
+  // Example: router.push(path)
+  router.push(path)
 }
 </script>
 
