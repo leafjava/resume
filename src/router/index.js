@@ -36,6 +36,11 @@ const router = createRouter({
     {
       path: '/achievement2',
       name: 'achievement2',
+      component: () => import('../views/Achievement2.vue'),
+    },
+    {
+      path: '/achievement2',
+      name: 'achievement2',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
