@@ -13,7 +13,7 @@
         <a @click="routeToPage('/achievement')">Achievements</a>
         <a @click="routeToPage('/achievement2')">Achievements2</a>
         <a @click="routeToPage('/achievement3')">Achievements3</a>
-        <a href="#tech" @click="closeMenu">Tech</a>
+        <a @click="routeToPage('/achievement4')">Achievements4</a>
         <a href="#about" @click="closeMenu">About</a>
         <a href="#contact" @click="closeMenu">Contact</a>
       </div>
