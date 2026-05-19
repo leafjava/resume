@@ -49,6 +49,11 @@ const router = createRouter({
       component: () => import('../views/Achievement4.vue'),
     },
     {
+      path: '/achievement5',
+      name: 'achievement5',
+      component: () => import('../views/Achievement5.vue'),
+    },
+    {
       path: '/achievement4',
       name: 'achievement4',
       // route level code-splitting

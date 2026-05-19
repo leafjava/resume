@@ -14,8 +14,8 @@
         <a @click="routeToPage('/achievement2')">Achievements2</a>
         <a @click="routeToPage('/achievement3')">Achievements3</a>
         <a @click="routeToPage('/achievement4')">Achievements4</a>
-        <a href="#about" @click="closeMenu">About</a>
-        <a href="#contact" @click="closeMenu">Contact</a>
+        <a @click="routeToPage('/achievement5')">Achievements5</a>
+        <!-- <a href="#contact" @click="closeMenu">Contact</a> -->
       </div>
 
       <button class="menu-toggle" @click="menuOpen = !menuOpen">
