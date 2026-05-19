@@ -10,8 +10,8 @@
         <!-- <a href="#home" @click="closeMenu">Home</a> -->
         <a @click="routeToPage('/')">Home</a>
         <a @click="routeToPage('/gwdc')">GWDC Champion</a>
-        <a href="#achievements" @click="closeMenu">Achievements</a>
-        <a href="#speaking" @click="closeMenu">Speaking</a>
+        <a @click="routeToPage('/achievement')">Achievements</a>
+        <a @click="routeToPage('/achievement2')">Achievements2</a>
         <a href="#projects" @click="closeMenu">Projects</a>
         <a href="#tech" @click="closeMenu">Tech</a>
         <a href="#about" @click="closeMenu">About</a>
