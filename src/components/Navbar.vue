@@ -10,11 +10,11 @@
         <!-- <a href="#home" @click="closeMenu">Home</a> -->
         <a @click="routeToPage('/')">Home</a>
         <a @click="routeToPage('/gwdc')">GWDC Champion</a>
-        <a @click="routeToPage('/achievement')">Achievements</a>
-        <a @click="routeToPage('/achievement2')">Achievements2</a>
-        <a @click="routeToPage('/achievement3')">Achievements3</a>
-        <a @click="routeToPage('/achievement4')">Achievements4</a>
-        <a @click="routeToPage('/achievement5')">Achievements5</a>
+        <a @click="routeToPage('/achievement')">光渡·AI论坛</a>
+        <a @click="routeToPage('/achievement2')">香港开发者港湾</a>
+        <a @click="routeToPage('/achievement3')">ENI项目合作</a>
+        <a @click="routeToPage('/achievement4')">Agent主题分享</a>
+        <a @click="routeToPage('/achievement5')">TON Builders Day</a>
         <!-- <a href="#contact" @click="closeMenu">Contact</a> -->
       </div>
 
