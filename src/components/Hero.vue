@@ -19,8 +19,8 @@
           </div>
           
           <p class="hero-slogan">
-            从世界冠军赛场到区块链与 AI Agent 前沿<br/>
-            用技术与影响力连接下一代 Web3 未来
+             GWDC 2026 Hackathon 圆满落幕，来自全球 8 个国家和地区的 35 支团队、超过 120 名开发者齐聚香港。<br/>
+            我所在团队获得 GWDC Conflux 链冠军，在国际化 Web3 开发者舞台中脱颖而出。 
           </p>
           
           <div class="hero-buttons">

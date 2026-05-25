@@ -49,6 +49,29 @@
       </a>
     </section>
 
+    <section class="official-award-section">
+      <h2>Official Award Announcement</h2>
+      <a
+        href="https://x.com/Web3Labs_Club/status/2021832024672399715"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="official-award-card"
+      >
+        <img src="@/assets/image/gwdc3/1.png" alt="GWDC Conflux Track Champion 官方获奖发布">
+        <div class="official-award-overlay">
+          <span>View Official Award Post on X →</span>
+        </div>
+      </a>
+      <a
+        href="https://x.com/Web3Labs_Club/status/2021832024672399715"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="view-more-btn official-award-btn"
+      >
+        View Official Award Post on X →
+      </a>
+    </section>
+
     <section class="gallery-section">
       <h2>Event Gallery</h2>
       <div class="gallery-grid">
@@ -172,6 +195,67 @@ h2 {
 
 .interview-section .interview-card:hover .interview-overlay {
   transform: translateY(0);
+}
+
+.official-award-section .official-award-card {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 245, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.official-award-section .official-award-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.official-award-section .official-award-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  padding: 2rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.official-award-section .official-award-overlay span {
+  color: var(--color-cyan);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.official-award-section .official-award-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 48px rgba(0, 245, 255, 0.3);
+}
+
+.official-award-section .official-award-card:hover .official-award-overlay {
+  transform: translateY(0);
+}
+
+.official-award-btn {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 1rem 2rem;
+  background: var(--gradient-primary);
+  color: var(--color-bg);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  max-width: 340px;
+}
+
+.official-award-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 245, 255, 0.4);
 }
 
 .gallery-section .gallery-grid {
