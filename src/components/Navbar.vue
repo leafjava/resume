@@ -45,8 +45,7 @@ const closeMenu = () => {
 }
 
 const routeToPage = (path) => {
-  // Implementation for routing to another page
-  // Example: router.push(path)
+  closeMenu()
   router.push(path)
 }
 
