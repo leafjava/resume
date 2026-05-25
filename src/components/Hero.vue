@@ -497,7 +497,7 @@ const routeToPage = (path) => {
 
 @media (max-width: 640px) {
   .hero {
-    padding: 6rem 1.5rem 3rem;
+    padding: 7rem 1.5rem 3rem;
   }
 
   .champion-showcase {

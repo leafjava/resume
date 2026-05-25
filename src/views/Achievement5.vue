@@ -126,7 +126,7 @@ export default {
 
 @media (max-width: 768px) {
   .achievement-container {
-    padding: 20px 10px;
+    padding: 100px 10px 20px;
     
     .header {
       margin-bottom: 30px;
