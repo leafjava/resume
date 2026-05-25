@@ -458,7 +458,7 @@ const routeToPage = (path) => {
 
   .champion-image-wrapper {
     max-width: 500px;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
   }
 
@@ -505,7 +505,7 @@ const routeToPage = (path) => {
   }
 
   .champion-image-wrapper {
-    height: 500px;
+    height: auto;
   }
 
   .champion-badge {

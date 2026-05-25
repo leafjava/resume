@@ -5,6 +5,17 @@
       <p class="subtitle">Google Web Developer Challenge - Global Winner</p>
     </div>
 
+    <div class="photo-wall-btn-wrapper">
+      <a
+        href="https://m.piufoto.com/album/bf18fe1f1eb1be8fdfdebdff457e49df/1266520733?menu=live"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="view-more-btn photo-wall-btn"
+      >
+        查看官方照片墙 →
+      </a>
+    </div>
+
     <section class="video-section">
       <h2>Competition Highlights</h2>
       <div class="video-container">
@@ -216,6 +227,26 @@ h2 {
 }
 
 .gallery-section .view-more-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 245, 255, 0.4);
+}
+
+.photo-wall-btn-wrapper {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.photo-wall-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--gradient-primary);
+  color: var(--color-bg);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-wall-btn:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 245, 255, 0.4);
 }
