@@ -9,7 +9,7 @@
           </div>
           
           <h1 class="hero-title">
-            <span class="title-main">林燊</span>
+            <span class="title-main">Leaf</span>
             <span class="title-sub">Lin Shen</span>
           </h1>
           
@@ -40,7 +40,7 @@
           <div class="avatar-container">
             <div class="avatar-glow"></div>
             <div class="avatar-placeholder">
-              <img src="@/assets/image/head.jpg" alt="林燊 | Lin Shen" class="avatar-image" />
+              <img src="@/assets/image/head.jpg" alt="Leaf | Lin Shen" class="avatar-image" />
             </div>
           </div>
           <div class="floating-elements">
@@ -441,7 +441,7 @@ const routeToPage = (path) => {
   }
 
   .champion-image-wrapper {
-    height: 600px;
+    height: auto;
   }
 }
 

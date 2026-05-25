@@ -9,7 +9,7 @@
       <div class="about-content">
         <div class="about-text">
           <p class="intro-text">
-            我是<strong>林燊（Lin Shen / Leaf）</strong>，一位从世界冠军赛场转战 AI + Web3 领域的新生代开发者与全栈工程师。
+            我是<strong>Leaf（Lin Shen / Leaf）</strong>，一位从世界冠军赛场转战 AI + Web3 领域的新生代开发者与全栈工程师。
           </p>
           
           <p class="intro-text">

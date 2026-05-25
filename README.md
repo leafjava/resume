@@ -1,4 +1,4 @@
-# 林燊 | Lin Shen - 个人简介网站
+# Leaf | Lin Shen - 个人简介网站
 
 > 世界冠军 × AI + Web3 新生代开发者
 
@@ -74,7 +74,7 @@ npm run preview
 
 ```vue
 <div class="avatar-placeholder">
-  <img src="/images/your-photo.jpg" alt="林燊" />
+  <img src="/images/your-photo.jpg" alt="Leaf" />
 </div>
 ```
 
@@ -152,7 +152,7 @@ const downloadResume = () => {
 
 ## 📄 许可证
 
-© 2026 林燊 | Lin Shen. All Rights Reserved.
+© 2026 Leaf | Lin Shen. All Rights Reserved.
 
 ## 🤝 联系方式
 

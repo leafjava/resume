@@ -35,7 +35,7 @@
 
     <footer class="footer">
       <div class="footer-content">
-        <p class="copyright">© 2026 林燊 | Lin Shen. All Rights Reserved.</p>
+        <p class="copyright">© 2026 Leaf | Lin Shen. All Rights Reserved.</p>
         <p class="footer-tagline">Built with passion for Web3 & AI 🚀</p>
       </div>
     </footer>

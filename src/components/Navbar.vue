@@ -2,7 +2,7 @@
   <nav :class="['navbar', { 'scrolled': isScrolled }]">
     <div class="nav-container">
       <div class="nav-logo">
-        <span class="logo-text">林燊</span>
+        <span class="logo-text">Leaf</span>
         <span class="logo-subtitle">Lin Shen</span>
       </div>
       
