@@ -117,7 +117,7 @@ const routeToPage = (path) => {
 }
 
 .champion-showcase {
-  width: 1000px;
+  width: 500px;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -130,7 +130,7 @@ const routeToPage = (path) => {
 .champion-image-wrapper {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: auto;
   border-radius: 20px;
   overflow: hidden;
   border: 3px solid rgba(0, 245, 255, 0.3);
