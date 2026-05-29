@@ -11,7 +11,7 @@
         <a @click="routeToPage('/')">Home</a>
         <a @click="routeToPage('/gwdc')">GWDC Champion</a>
         <a @click="routeToPage('/achievement')">光渡·AI论坛</a>
-        <a @click="routeToPage('/achievement2')">香港开发者港湾</a>
+        <!-- <a @click="routeToPage('/achievement2')">香港开发者港湾</a> -->
         <a @click="routeToPage('/achievement3')">ENI项目合作</a>
         <a @click="routeToPage('/achievement4')">Agent主题分享</a>
         <a @click="routeToPage('/achievement5')">TON Builders Day</a>
