@@ -65,6 +65,16 @@ const router = createRouter({
       path: '/new-star',
       name: 'new-star',
       component: () => import('../views/NewStar.vue'),
+    },
+    {
+      path: '/feixiaohao',
+      name: 'feixiaohao',
+      component: () => import('../views/Feixiaohao.vue'),
+    },
+    {
+      path: '/gaoxiaoxing',
+      name: 'gaoxiaoxing',
+      component: () => import('../views/Gaoxiaoxing.vue'),
     }
   ],
 })

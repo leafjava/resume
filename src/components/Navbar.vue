@@ -10,12 +10,14 @@
         <!-- <a href="#home" @click="closeMenu">Home</a> -->
         <a @click="routeToPage('/')">Home</a>
         <a @click="routeToPage('/gwdc')">GWDC Champion</a>
+        <a @click="routeToPage('/new-star')">新星计划 Top10</a>
         <a @click="routeToPage('/achievement')">光渡·AI论坛</a>
         <!-- <a @click="routeToPage('/achievement2')">香港开发者港湾</a> -->
         <a @click="routeToPage('/achievement3')">ENI项目合作</a>
         <a @click="routeToPage('/achievement4')">Agent主题分享</a>
         <a @click="routeToPage('/achievement5')">TON Builders Day</a>
-        <a @click="routeToPage('/new-star')">新星计划 Top10</a>
+        <a @click="routeToPage('/feixiaohao')">非小号嘉宾</a>
+        <a @click="routeToPage('/gaoxiaoxing')">大树财经高校行</a>
         <!-- <a href="#contact" @click="closeMenu">Contact</a> -->
       </div>
 
@@ -112,26 +114,26 @@ onUnmounted(() => {
   display: flex;
   gap: 2.5rem;
   align-items: center;
+}
 
-  span{
-    cursor: pointer;
-    color: var(--color-text-primary);
-    font-weight: 500;
-    font-size: 0.95rem;
-    position: relative;
-    transition: color 0.3s ease;
-  }
+.nav-menu span {
+  cursor: pointer;
+  color: var(--color-text-primary);
+  font-weight: 500;
+  font-size: 0.95rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
 
-  span::after{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--gradient-primary);
-    transition: width 0.3s ease;
-  }
+.nav-menu span::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  transition: width 0.3s ease;
 }
 
 .nav-menu a {
