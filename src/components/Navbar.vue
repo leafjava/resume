@@ -15,6 +15,7 @@
         <a @click="routeToPage('/achievement3')">ENI项目合作</a>
         <a @click="routeToPage('/achievement4')">Agent主题分享</a>
         <a @click="routeToPage('/achievement5')">TON Builders Day</a>
+        <a @click="routeToPage('/new-star')">新星计划 Top10</a>
         <!-- <a href="#contact" @click="closeMenu">Contact</a> -->
       </div>
 
