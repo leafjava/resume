@@ -75,6 +75,11 @@ const router = createRouter({
       path: '/gaoxiaoxing',
       name: 'gaoxiaoxing',
       component: () => import('../views/Gaoxiaoxing.vue'),
+    },
+    {
+      path: '/diwangxie',
+      name: 'diwangxie',
+      component: () => import('../views/Diwangxie.vue'),
     }
   ],
 })
