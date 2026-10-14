@@ -16,7 +16,7 @@
         <a @click="routeToPage('/achievement3')">ENI项目合作</a>
         <a @click="routeToPage('/achievement4')">Agent主题分享</a>
         <a @click="routeToPage('/achievement5')">TON Builders Day</a>
-        <a @click="routeToPage('/feixiaohao')">非小号嘉宾</a>
+        <a @click="routeToPage('/feixiaohao')">非小号</a>
         <a @click="routeToPage('/gaoxiaoxing')">大树财经高校行</a>
         <!-- <a href="#contact" @click="closeMenu">Contact</a> -->
       </div>
