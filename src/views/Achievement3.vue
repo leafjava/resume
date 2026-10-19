@@ -1,24 +1,24 @@
 <template>
   <div class="achievement-container">
     <div class="header">
-      <h1>ENI电子提单系统项目</h1>
+      <h1>ENI Electronic Negotiable Instrument System Project</h1>
       <p class="subtitle">Electronic Negotiable Instrument System</p>
     </div>
 
     <div class="description">
-      <p>成功邀请楼小二董事长（有阿里入资，曾有京东刘强东和陶陶居老板主动谈合作）、汉柏科技联合创始人广财数智学院第一届学生会主席马力师兄（曾带领团队完成累计4亿元融资，公司估值达20亿元，成为细分领域独角兽企业）、前朗新科技子公司涵谷科技董事长林志峰哥一起去峰哥公司开会聊天两个多小时关于ENI电子提单系统方面项目</p>
-      <p>成功撮合邀请楼小二董事长马力,前朗新科技子公司执行董事林志峰一起商谈开会。成功受ENI CEO Arion邀请拉小群商谈ENI×丽迅科技电子提单项目规划</p>
+      <p>Successfully brought together the Chairman of Louxiaoer (with Alibaba investment; previously attracted proactive collaboration talks from Liu Qiangdong of JD.com and the owner of Tao Tao Ju), Ma Li — Co-founder of Hanbai Technology and Chairman of the first Student Union of the School of Digital Intelligence at Guangdong University of Finance & Economics (who led his team to a cumulative ¥400M in funding with a ¥2B valuation, becoming a niche-sector unicorn), and Lin Zhifeng — former Chairman of Hangu Technology, a subsidiary of Longshine Technology — for a 2+ hour meeting at Brother Feng's company to discuss the ENI Electronic Negotiable Instrument project.</p>
+      <p>Successfully facilitated a meeting between Ma Li (Chairman of Louxiaoer) and Lin Zhifeng (former Executive Director of a Longshine Technology subsidiary). Successfully invited by ENI CEO Arion to a small group discussion on the ENI × Lixun Technology Electronic Negotiable Instrument project plan.</p>
     </div>
     
     <div class="featured-image">
-      <img :src="featuredImage" alt="ENI项目重点展示" />
+      <img :src="featuredImage" alt="ENI Project Highlight" />
     </div>
     
 
     
     <div class="image-gallery">
       <div v-for="(img, index) in images" :key="index" class="image-item">
-        <img :src="img.url" :alt="`ENI项目图片 ${index + 1}`" />
+        <img :src="img.url" :alt="`ENI Project Image ${index + 1}`" />
       </div>
     </div>
   </div>

@@ -12,7 +12,7 @@
         rel="noopener noreferrer"
         class="view-more-btn photo-wall-btn"
       >
-        查看官方照片墙 →
+        View Official Photo Wall →
       </a>
     </div>
 
@@ -28,13 +28,13 @@
 
     <section class="interview-section">
       <h2>Media Coverage</h2>
-      <a 
-        href="https://x.com/Web3Twinkle/status/2022987039571091961" 
-        target="_blank" 
+      <a
+        href="https://x.com/Web3Twinkle/status/2022987039571091961"
+        target="_blank"
         rel="noopener noreferrer"
         class="interview-card"
       >
-        <img src="@/assets/image/gwdc/interview.jpg" alt="金色财经采访">
+        <img src="@/assets/image/gwdc/interview.jpg" alt="Jinse Finance Interview">
         <div class="interview-overlay">
           <span>View Interview on X →</span>
         </div>
@@ -57,7 +57,7 @@
         rel="noopener noreferrer"
         class="official-award-card"
       >
-        <img src="@/assets/image/gwdc3/1.png" alt="GWDC Conflux Track Champion 官方获奖发布">
+        <img src="@/assets/image/gwdc3/1.png" alt="GWDC Conflux Track Champion Official Award Announcement">
         <div class="official-award-overlay">
           <span>View Official Award Post on X →</span>
         </div>

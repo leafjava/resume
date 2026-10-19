@@ -1,11 +1,11 @@
 <template>
   <div class="achievement-container">
     <div class="header">
-      <h1>非小号 · Feixiaohao</h1>
-      <p class="subtitle">特邀嘉宾 · 黑客松战队 · 创新论坛</p>
+      <h1>Feixiaohao</h1>
+      <p class="subtitle">Featured Guest · Hackathon Team · Innovation Forum</p>
     </div>
 
-    <!-- Tab 导航：一左一右，点击切换 -->
+    <!-- Tab Navigation: one on each side, click to switch -->
     <div class="tab-nav" role="tablist">
       <button
         v-for="tab in tabs"
@@ -23,24 +23,23 @@
       </button>
     </div>
 
-    <!-- 特邀嘉宾 Tab -->
+    <!-- Featured Guest Tab -->
     <transition name="fade" mode="out-in">
       <div v-if="activeTab === 'guest'" key="guest" class="tab-panel">
         <div class="description">
           <p>
-            作为 <strong>《K 博士侃币》特邀嘉宾</strong>，参与多期深度话题直播，与 Ken 博士、十三亿.Luffy、林野等主持人，及多位行业大咖同台讨论。
-            从 <strong>AI 全栈开发工程师</strong> 的视角，分享对热点话题的技术与产品思考。
+            As a <strong>featured guest on "Dr. K's Crypto Talk"</strong>, I've joined multiple deep-dive livestreams alongside hosts Dr. Ken, 13Yi.Luffy, Lin Ye, and other industry leaders. Sharing technical and product insights from the perspective of an <strong>AI full-stack developer</strong>.
           </p>
         </div>
 
         <div class="gallery-section">
           <h2 class="gallery-title">
             <span class="title-bar"></span>
-            <span class="title-text">直播现场</span>
-            <span class="title-sub">Live Highlights</span>
+            <span class="title-text">Live Highlights</span>
+            <span class="title-sub">Livestream Moments</span>
             <span class="title-bar"></span>
           </h2>
-          <p class="gallery-desc">三期《K 博士侃币》直播官方海报 · 含主持人、特邀嘉宾与冠名赞助</p>
+          <p class="gallery-desc">Official posters from 3 episodes of "Dr. K's Crypto Talk" · Featuring hosts, guests, and sponsors</p>
           <div class="image-gallery">
             <a
               v-for="item in gallery"
@@ -65,153 +64,152 @@
           </div>
         </div>
 
-        <!-- 议题一 -->
+        <!-- Episode 1 -->
         <div class="episode">
           <div class="episode-meta">
-            <span class="episode-date">2026 · 08 · 14（周五）</span>
+            <span class="episode-date">2026 · 08 · 14 (Fri)</span>
             <span class="episode-tag">AI Agent</span>
           </div>
           <h2 class="episode-title">
-            《扎克伯格说人人都有超级助手：普通人终于有私人助理，还是把整个人生交给 AI 平台？》
+            "Zuckerberg Says Everyone Will Have a Super Assistant: Will Regular People Finally Get a Personal Assistant, or Hand Over Their Entire Lives to an AI Platform?"
           </h2>
 
           <div class="episode-body">
-            <h3>话题核心</h3>
+            <h3>Topic Core</h3>
             <p>
-              扎克伯格描绘的"人人拥有个人超级智能"，AI 不再只是回答问题的聊天机器人，而是长期理解用户目标、习惯、生活背景的个人助手。
+              Zuckerberg's vision of "personal superintelligence for everyone" — AI is no longer just a chatbot that answers questions, but a personal assistant that long-term understands user goals, habits, and life context.
             </p>
             <p>
-              支持者视其为能力平权，反对者则担忧隐私、单点风险与平台锁定。
+              Supporters see it as capability equalization; opponents worry about privacy, single-point risks, and platform lock-in.
             </p>
 
-            <h3>作为 AI 全栈开发工程师的观点</h3>
+            <h3>My View as an AI Full-Stack Developer</h3>
             <ul>
-              <li><strong>技术本质</strong>：超级助手 = LLM Agent + 多模态感知 + 工具调用 + 长记忆，四件事缺一不可。</li>
-              <li><strong>真正的瓶颈不是能力，而是数据所有权</strong>：AI 越懂你，就越需要读取你的人生。问题不在 AI，而在数据归属与流转的架构。</li>
-              <li><strong>Web3 是天然解药</strong>：本地化推理 + 链上身份 + 可验证授权 + 可迁移数据，让 AI 助手"属于用户"而不是平台。</li>
-              <li><strong>开发者该做的事</strong>：做开源、可审计、可迁移的 Agent，而不是又一座数据孤岛；让"换平台能带走记忆"成为默认能力。</li>
-              <li><strong>责任边界</strong>：买错东西、转错账、决策失误，必须有可追责的 Agent 行为日志，而不是让用户和模型互相甩锅。</li>
+              <li><strong>Technical essence</strong>: A super assistant = LLM Agent + multi-modal perception + tool calling + long-term memory. All four are essential.</li>
+              <li><strong>The real bottleneck isn't capability, but data ownership</strong>: The more an AI knows you, the more it needs to read your life. The issue isn't AI itself, but the architecture of data attribution and flow.</li>
+              <li><strong>Web3 is the natural remedy</strong>: On-device inference + on-chain identity + verifiable authorization + portable data — making the AI assistant "belong to the user" rather than the platform.</li>
+              <li><strong>What developers should do</strong>: Build open, auditable, portable Agents — not another data silo. Make "switching platforms while keeping your memory" the default.</li>
+              <li><strong>Boundaries of responsibility</strong>: For wrong purchases, wrong transfers, or flawed decisions, we need accountable Agent behavior logs — not letting users and models blame each other.</li>
             </ul>
             <p class="episode-vote">
-              我的态度：<strong>YES，但需要主权架构</strong>。愿意把日程、购物、支付交给 AI 助手，但前提是助手归我、记忆可带走、权限可审计。
+              My stance: <strong>YES, but with a sovereign architecture</strong>. I'm willing to hand schedules, shopping, and payments to an AI assistant — but only if it belongs to me, memory is portable, and permissions are auditable.
             </p>
           </div>
         </div>
 
-        <!-- 议题二 -->
+        <!-- Episode 2 -->
         <div class="episode">
           <div class="episode-meta">
-            <span class="episode-date">2026 · 08 · 17（周一）</span>
-            <span class="episode-tag">Meme / 注意力经济</span>
+            <span class="episode-date">2026 · 08 · 17 (Mon)</span>
+            <span class="episode-tag">Meme / Attention Economy</span>
           </div>
           <h2 class="episode-title">
-            《热点被不断金融化，Meme 币的注意力经济是否已经走到极限？》
+            "Trends Keep Getting Financialized — Has the Meme Coin Attention Economy Already Hit Its Limit?"
           </h2>
 
           <div class="episode-body">
-            <h3>话题核心</h3>
+            <h3>Topic Core</h3>
             <p>
-              热点一出圈，同名 Meme 币立即批量上线；一句名人互动，可能被市场解读为"站台"并快速拉升。
-              热点生命周期变短、同质化代币变多、资金被持续分散，普通用户往往错过最早一轮行情。
+              As soon as a trend breaks out, same-name Meme coins are launched in bulk; a single celebrity interaction can be interpreted as "endorsement" and quickly pumps the price.
+              Trend lifecycles are getting shorter, homogeneous tokens multiply, capital is continuously scattered, and regular users often miss the earliest wave.
             </p>
 
-            <h3>作为 AI 全栈开发工程师的观点</h3>
+            <h3>My View as an AI Full-Stack Developer</h3>
             <ul>
-              <li><strong>注意力经济本质是流量→情绪→资本的转化漏斗</strong>，Meme 币只是这套模型的链上化。</li>
-              <li><strong>从产品迭代看</strong>：Meme 币不会消失，只会换叙事、换平台、换玩法。"到极限"是个伪命题，下一轮总会用新外壳复活。</li>
-              <li><strong>AI Agent 正在改变 Meme 玩法</strong>：自动监控热点、自动生成叙事、自动做市、自动跟单，这会进一步压缩普通人的反应窗口。</li>
-              <li><strong>开发者能做的事</strong>：构建更透明的资金流向工具、更公平的发射机制，把"信息不对称"从收割工具变成保护工具。</li>
-              <li><strong>真正的护城河</strong>：不是判断下一个 Meme 是哪个，而是构建长期沉淀社区与文化的项目，让注意力变成留存，而不是流量。</li>
+              <li><strong>The attention economy is essentially a traffic → emotion → capital conversion funnel</strong>; Meme coins are just the on-chain version of this model.</li>
+              <li><strong>From a product iteration view</strong>: Meme coins won't disappear — they'll just change narrative, platform, and gameplay. "Hitting the limit" is a false premise; the next cycle will always revive it in a new shell.</li>
+              <li><strong>AI Agents are changing Meme gameplay</strong>: Auto-monitoring trends, auto-generating narratives, auto-market-making, auto-copy-trading — this further compresses the reaction window for ordinary people.</li>
+              <li><strong>What developers can do</strong>: Build more transparent fund-flow tools and fairer launch mechanisms, turning "information asymmetry" from a harvesting tool into a protective one.</li>
+              <li><strong>The real moat</strong>: It's not about guessing the next Meme, but building projects with long-term community and culture — turning attention into retention, not just traffic.</li>
             </ul>
             <p class="episode-vote">
-              我的态度：<strong>NO，远未到极限</strong>。叙事会迭代，工具在升级，注意力经济只会越来越成熟，而不是枯竭。
+              My stance: <strong>NO, far from the limit</strong>. Narratives iterate, tools upgrade — the attention economy will only mature, not dry up.
             </p>
           </div>
         </div>
 
-        <!-- 议题三 -->
+        <!-- Episode 3 -->
         <div class="episode">
           <div class="episode-meta">
-            <span class="episode-date">2026 · 08 · 12（周三）</span>
+            <span class="episode-date">2026 · 08 · 12 (Wed)</span>
             <span class="episode-tag">RWA × Meme</span>
           </div>
           <h2 class="episode-title">
-            《美股代币给 Meme 币当底池：是 RWA 创新，还是让土狗穿上西装？》
+            "US Stock Tokens as Liquidity Pools for Meme Coins: RWA Innovation, or Just Rugged Memes in Suits?"
           </h2>
 
           <div class="episode-body">
-            <h3>话题核心</h3>
+            <h3>Topic Core</h3>
             <p>
-              Four.meme 推出 Stock Meme 玩法，过去 Meme 币底池是"币对 BNB 或稳定币"，现在可以用 NVDAb、SPCXb 等代币化股票作为交易对另一端。
+              Four.meme launched the Stock Meme mechanic: previously, Meme coin pools were paired with BNB or stablecoins; now tokenized stocks like NVDAb and SPCXb can be used as the other side of the trading pair.
             </p>
             <p>
-              美股财报、公司新闻、SpaceX 发射等现实事件，可能影响底池资产、社区讨论和交易热度。
+              Real-world events like US stock earnings, company news, and SpaceX launches may influence pool assets, community discussions, and trading heat.
             </p>
 
-            <h3>作为 AI 全栈开发工程师的观点</h3>
+            <h3>My View as an AI Full-Stack Developer</h3>
             <ul>
-              <li><strong>底池创新本质是流动性的重新组合</strong>，交易对变了，定价机制没变：依然是情绪 + 资金 + 流量。</li>
-              <li><strong>警惕"标签式 RWA"</strong>：用美股代币买 Meme，不等于持有英伟达股票，没有股权、分红、现金流、赎回权。本质上还是用故事讲故事。</li>
-              <li><strong>真正的 RWA 应该具备四件事</strong>：可验证资产、链上可追溯、清晰赎回机制、合规框架，否则只是穿了西装的土狗。</li>
-              <li><strong>从开发者视角看机会</strong>：需要更稳健的预言机、更透明的智能合约、更公平的反作弊机制，而不是只换交易对。</li>
-              <li><strong>Meme 与 RWA 的真正结合点</strong>：不是给 Meme 找"体面外衣"，而是让链上资产获得"消费场景"——这才是双向的价值放大。</li>
+              <li><strong>Pool innovation is essentially a recombination of liquidity</strong> — the trading pair changes, but the pricing mechanism doesn't: it's still emotion + capital + traffic.</li>
+              <li><strong>Beware "label-style RWA"</strong>: Buying a Meme with a US stock token ≠ holding Nvidia stock — no equity, no dividends, no cash flow, no redemption rights. It's still storytelling wrapped in storytelling.</li>
+              <li><strong>Real RWA should have four things</strong>: Verifiable assets, on-chain traceability, clear redemption mechanism, and a compliance framework. Otherwise it's just rugged memes in suits.</li>
+              <li><strong>Developer perspective on opportunity</strong>: We need more robust oracles, more transparent smart contracts, fairer anti-cheat mechanisms — not just swapping trading pairs.</li>
+              <li><strong>The true meeting point of Meme and RWA</strong>: It's not putting a "decent coat" on Meme, but giving on-chain assets real "consumption scenarios" — that's the real value amplification in both directions.</li>
             </ul>
             <p class="episode-vote">
-              我的态度：<strong>NO，本质仍是情绪炒作</strong>。底池的另一边换了，不给 Meme 带来股权、分红或赎回价值。交易对变了，"土狗"还是"土狗"，只是西装换了颜色。
+              My stance: <strong>NO, it's still emotional speculation at its core</strong>. Changing the other side of the pool doesn't give Meme coins equity, dividends, or redemption value. The trading pair changed, but the rugged meme is still a rugged meme — just a different suit.
             </p>
           </div>
         </div>
       </div>
 
-      <!-- 黑客松战队 Tab -->
+      <!-- Hackathon Team Tab -->
       <div v-else key="team" class="tab-panel">
         <div class="description">
           <p>
-            成立 <strong>WayAgent FX 黑客军团</strong>，代表 <strong>非小号 × WayToWeb4</strong> 赴韩国首尔参加 GWDC 2026 KOREA Hackathon，
-            以 48 小时极限 Build 形式，在 <strong>AI × Blockchain × Finance</strong> 方向持续探索与共建。
+            Founded the <strong>WayAgent FX Hackathon Legion</strong>, representing <strong>Feixiaohao × WayToWeb4</strong> at the GWDC 2026 KOREA Hackathon in Seoul, South Korea — a 48-hour extreme build, continuing to explore and co-create in the <strong>AI × Blockchain × Finance</strong> direction.
           </p>
         </div>
 
         <div class="team-section">
           <h2 class="team-section-title">
             <span class="title-bar"></span>
-            <span class="title-text">WayAgent FX 黑客松战队</span>
-            <span class="title-sub">非小号 × WayToWeb4 出征 GWDC 2026 KOREA</span>
+            <span class="title-text">WayAgent FX Hackathon Team</span>
+            <span class="title-sub">Feixiaohao × WayToWeb4 at GWDC 2026 KOREA</span>
             <span class="title-bar"></span>
           </h2>
 
           <div class="team-meta-grid">
             <div class="team-meta-card">
               <div class="meta-icon">🏆</div>
-              <div class="meta-label">赛事</div>
+              <div class="meta-label">Event</div>
               <div class="meta-value">GWDC 2026 KOREA</div>
             </div>
             <div class="team-meta-card">
               <div class="meta-icon">📅</div>
-              <div class="meta-label">时间</div>
+              <div class="meta-label">Date</div>
               <div class="meta-value">2026 · 09 · 28 – 30</div>
             </div>
             <div class="team-meta-card">
               <div class="meta-icon">📍</div>
-              <div class="meta-label">地点</div>
-              <div class="meta-value">韩国首尔 aT Center</div>
+              <div class="meta-label">Location</div>
+              <div class="meta-value">aT Center, Seoul, South Korea</div>
             </div>
             <div class="team-meta-card">
               <div class="meta-icon">🎯</div>
-              <div class="meta-label">任务</div>
+              <div class="meta-label">Mission</div>
               <div class="meta-value">FURIOSA · DELEGATED FINANCE AGENT</div>
             </div>
           </div>
 
           <div class="team-poster">
             <a href="https://feixiaohao.ai/news/163379?tab=article" target="_blank" rel="noopener">
-              <img :src="teamMain" alt="WayAgent FX 出征海报" loading="lazy" />
+              <img :src="teamMain" alt="WayAgent FX Departure Poster" loading="lazy" />
             </a>
           </div>
 
           <h3 class="sub-block-title">
             <span class="sub-icon">📰</span>
-            媒体报道 · Media Coverage
+            Media Coverage
           </h3>
           <div class="media-grid">
             <a
@@ -221,15 +219,15 @@
               class="media-item"
             >
               <div class="media-image">
-                <img :src="teamImg1" alt="非小号官方新闻" loading="lazy" />
+                <img :src="teamImg1" alt="Feixiaohao Official News" loading="lazy" />
               </div>
               <div class="media-info">
                 <span class="media-source">
-                  <span class="source-tag">官方</span>
+                  <span class="source-tag">Official</span>
                   feixiaohao.ai
                 </span>
                 <span class="media-title">
-                  GWDC 黑客松倒计时：WayAgent FX 代表非小号 × WayToWeb4 集结出征
+                  GWDC Hackathon Countdown: WayAgent FX Represents Feixiaohao × WayToWeb4 on Departure
                 </span>
                 <span class="media-date">2026 · 09 · 26</span>
               </div>
@@ -241,15 +239,15 @@
               class="media-item"
             >
               <div class="media-image">
-                <img :src="teamImg2" alt="金色财经报道" loading="lazy" />
+                <img :src="teamImg2" alt="Jinse Finance Report" loading="lazy" />
               </div>
               <div class="media-info">
                 <span class="media-source">
-                  <span class="source-tag">财经</span>
-                  jinse.com · 金色财经
+                  <span class="source-tag">Finance</span>
+                  jinse.com · Jinse Finance
                 </span>
                 <span class="media-title">
-                  GWDC 黑客松倒计时：WayAgent FX 代表非小号 × WayToWeb4 集结出征
+                  GWDC Hackathon Countdown: WayAgent FX Represents Feixiaohao × WayToWeb4 on Departure
                 </span>
                 <span class="media-date">2026 · 09 · 29</span>
               </div>
@@ -258,55 +256,55 @@
 
           <h3 class="sub-block-title">
             <span class="sub-icon">🤝</span>
-            社区与行业支持 · Community Partners
+            Community & Industry Support · Community Partners
           </h3>
           <div class="support-grid">
             <div class="support-item">
               <div class="support-image">
-                <img :src="teamImg3" alt="TinTinLand 社区支持" loading="lazy" />
+                <img :src="teamImg3" alt="TinTinLand Community Support" loading="lazy" />
               </div>
               <div class="support-info">
                 <span class="support-name">TinTinLand</span>
-                <span class="support-role">社区合作伙伴 · Community Partner</span>
+                <span class="support-role">Community Partner</span>
               </div>
             </div>
             <div class="support-item">
               <div class="support-image">
-                <img :src="teamImg4" alt="大树财经 Tree Finance" loading="lazy" />
+                <img :src="teamImg4" alt="Dashu Finance Tree Finance" loading="lazy" />
               </div>
               <div class="support-info">
-                <span class="support-name">大树财经 Tree Finance</span>
-                <span class="support-role">社区合作伙伴 · Community Partner</span>
+                <span class="support-name">Dashu Finance · Tree Finance</span>
+                <span class="support-role">Community Partner</span>
               </div>
             </div>
             <div class="support-item">
               <div class="support-image">
-                <img :src="teamImg5" alt="王岳华 DraperDragon 祝福" loading="lazy" />
+                <img :src="teamImg5" alt="Wang Yuehua DraperDragon Wishes" loading="lazy" />
               </div>
               <div class="support-info">
-                <span class="support-name">王岳华 · DraperDragon</span>
-                <span class="support-role">行业祝福 · Industry Wishes</span>
+                <span class="support-name">Wang Yuehua · DraperDragon</span>
+                <span class="support-role">Industry Wishes</span>
               </div>
             </div>
           </div>
 
           <h3 class="sub-block-title">
             <span class="sub-icon">📸</span>
-            首尔现场实况 · Live from Seoul
+            Live from Seoul
           </h3>
           <div class="live-grid">
             <div class="live-item">
               <div class="live-image">
-                <img :src="teamImg6" alt="现场参会" loading="lazy" />
+                <img :src="teamImg6" alt="Onsite Group Photo" loading="lazy" />
               </div>
-              <div class="live-caption">aT Center · 参会团队合影</div>
+              <div class="live-caption">aT Center · Group photo of attending teams</div>
             </div>
             <div class="live-item live-item-wide">
               <div class="live-image">
-                <img :src="teamImg7" alt="非小号×GWDC 2026 创新论坛" loading="lazy" />
+                <img :src="teamImg7" alt="Feixiaohao x GWDC 2026 Innovation Forum" loading="lazy" />
               </div>
               <div class="live-caption">
-                非小号 × GWDC 2026 创新论坛 · 9.29 韩国首尔 aT Center
+                Feixiaohao × GWDC 2026 Innovation Forum · Sep 29, aT Center, Seoul, South Korea
               </div>
             </div>
           </div>
@@ -316,17 +314,14 @@
 
     <div class="description closing">
       <p>
-        从《K 博士侃币》直播的议题交锋，到 GWDC 2026 KOREA 的 48 小时极限 Build，与 <strong>非小号</strong> 的合作让我对 <strong>AI × Web3</strong> 的交叉领域有了更深的思考。
-        期待未来继续与非小号、WayToWeb4 及各位行业伙伴一起，探讨真正有价值的技术与产品。
+        From the topic clashes on "Dr. K's Crypto Talk" livestreams to the 48-hour extreme build at GWDC 2026 KOREA, my collaboration with <strong>Feixiaohao</strong> has given me deeper thinking on the intersection of <strong>AI × Web3</strong>. Looking forward to continuing to explore truly valuable technology and products with Feixiaohao, WayToWeb4, and all industry partners.
       </p>
       <div class="hashtags">
         <span>#feixiaohao</span>
-        <span>#非小号</span>
-        <span>#K博士侃币</span>
+        <span>#DrKTalksCrypto</span>
         <span>#WayAgentFX</span>
         <span>#WayToWeb4</span>
         <span>#GWDC2026</span>
-        <span>#黑客松</span>
         <span>#Hackathon</span>
         <span>#AI</span>
         <span>#AIAgent</span>
@@ -360,25 +355,25 @@ export default {
     return {
       activeTab: 'guest',
       tabs: [
-        { id: 'guest', icon: '🎙️', label: '特邀嘉宾', sub: '《K 博士侃币》' },
-        { id: 'team', icon: '🏆', label: '黑客松战队', sub: 'WayAgent FX' }
+        { id: 'guest', icon: '🎙️', label: 'Featured Guest', sub: 'Dr. K\'s Crypto Talk' },
+        { id: 'team', icon: '🏆', label: 'Hackathon Team', sub: 'WayAgent FX' }
       ],
       gallery: [
         {
           id: 1,
           image: img1,
           date: '2026 · 08 · 10',
-          topic: '预测市场',
+          topic: 'Prediction Markets',
           tag: 'Prediction',
-          title: '五秒钟改写预测市场输赢'
+          title: 'How 5 Seconds Can Rewrite a Prediction Market Outcome'
         },
         {
           id: 2,
           image: img2,
           date: '2026 · 08 · 17',
-          topic: 'Meme · 注意力经济',
+          topic: 'Meme · Attention Economy',
           tag: 'Meme',
-          title: '热点一夜变成 Meme 币'
+          title: 'A Trending Topic Turns into a Meme Coin Overnight'
         },
         {
           id: 3,
@@ -386,7 +381,7 @@ export default {
           date: '2026 · 08 · 14',
           topic: 'AI Agent',
           tag: 'AI Agent',
-          title: '人人都有超级助手'
+          title: 'Everyone Gets a Super Assistant'
         }
       ],
       teamMain,

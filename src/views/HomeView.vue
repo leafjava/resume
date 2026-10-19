@@ -5,17 +5,17 @@
     <section class="gwdc-gallery-section">
       <div class="gwdc-intro">
         <span class="gwdc-kicker">GWDC 2026 Hackathon</span>
-        <h2 class="gwdc-title">Conflux Track Champion · 全球 Web3 开发者大会高光时刻</h2>
+        <h2 class="gwdc-title">Conflux Track Champion · Highlights from the Global Web3 Developer Conference</h2>
         <p class="gwdc-desc">
-          GWDC 2026 Hackathon 圆满落幕，来自全球 8 个国家和地区的 35 支团队、超过 120 名开发者齐聚香港。我所在团队获得 GWDC Conflux 链冠军，在国际化 Web3 开发者舞台中脱颖而出。
+          The GWDC 2026 Hackathon has successfully concluded, gathering 35 teams and over 120 developers from 8 countries and regions in Hong Kong. My team won the GWDC Conflux Track Champion, standing out on the international Web3 developer stage.
         </p>
         <div class="gwdc-highlights">
-          <span>全国政协吴杰庄主礼致辞</span>
-          <span>香港财政司副司长 Michael Wong 开场致辞</span>
-          <span>孙宇晨发表“稳定币 × AI”主题演讲</span>
-          <span>香港数码港董事孔剑平参与启动</span>
-          <span>Web3Labs 顾问任命与行业交流</span>
-          <span>RWA 与稳定币圆桌讨论</span>
+          <span>Opening Address by CPPCC Member Wu Jiezhuang</span>
+          <span>Welcome Remarks by Michael Wong, Deputy Financial Secretary of Hong Kong</span>
+          <span>Justin Sun's Keynote: "Stablecoins × AI"</span>
+          <span>Cyberport Board Member Kong Jianping Joins the Launch</span>
+          <span>Web3Labs Advisor Appointments & Industry Exchange</span>
+          <span>RWA & Stablecoin Roundtable Discussion</span>
         </div>
       </div>
 
@@ -24,7 +24,7 @@
           v-for="(image, index) in gwdcImages"
           :key="image"
           :src="image"
-          :alt="`GWDC 高光图片 ${index + 1}`"
+          :alt="`GWDC Highlight Image ${index + 1}`"
           class="gwdc-gallery-image"
         />
       </div>

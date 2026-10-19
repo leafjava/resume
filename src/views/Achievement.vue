@@ -1,27 +1,27 @@
 <template>
   <div class="achievement-container">
     <div class="header">
-      <h1>光渡·LIGHT CROSSING</h1>
+      <h1>Light Crossing · LIGHT CROSSING</h1>
       <p class="subtitle">AI · THE LIGHT BETWEEN TWO WORLDS</p>
     </div>
-    
+
     <div class="description">
-      <p>感谢大树财经的邀请，作为新生代代表参与本次AI话题讨论。</p>
-      <p>特别开心能与《稳定币》作者、哈佛大学研究员韩峰老师交流，他不仅参与了孙宇晨的闭门会议，还耐心听取了我用iPad演示的项目想法，并给予宝贵建议。</p>
-      <p>也很荣幸与亚洲区块链学会会长蔡志川博士深入探讨。</p>
-      <p>很开心能与清华大学区块链协会骨干、广州区块链协会会长等优秀新生代一起交流，期待与各位前辈和同辈一起进步，共同推动AI与区块链领域的创新发展！</p>
-      
+      <p>Thanks to Dashu Finance for the invitation — honored to participate in this AI-themed discussion as a next-gen representative.</p>
+      <p>Especially happy to have exchanged ideas with Mr. Han Feng, author of "Stablecoins" and a Harvard researcher. He participated in Justin Sun's closed-door meeting and patiently listened to my project idea demonstrated on iPad, offering valuable feedback.</p>
+      <p>Also honored to have in-depth discussions with Dr. Cai Zhichuan, President of the Asian Blockchain Society.</p>
+      <p>Very glad to engage with outstanding next-gen figures including key members of the Tsinghua University Blockchain Association and the President of the Guangzhou Blockchain Association. Looking forward to growing together with all the seniors and peers, and jointly driving innovation in AI and blockchain!</p>
+
       <div class="link-button">
         <a href="https://m.alltuu.com/album/ddfeaa668cd44df99abf3afdb001cb1c/?menu=live" target="_blank" rel="noopener noreferrer">
           <span class="icon">🔗</span>
-          <span class="text">查看活动详情</span>
+          <span class="text">View Event Details</span>
         </a>
       </div>
     </div>
-    
+
     <div class="image-gallery">
       <div v-for="index in 10" :key="index" class="image-item">
-        <img :src="getImageUrl(index)" :alt="`光渡活动图片 ${index}`" />
+        <img :src="getImageUrl(index)" :alt="`Light Crossing Event Image ${index}`" />
       </div>
     </div>
   </div>

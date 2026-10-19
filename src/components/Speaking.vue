@@ -2,7 +2,7 @@
   <section id="speaking" class="speaking">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">演讲嘉宾经历</h2>
+        <h2 class="section-title">Speaking Engagements</h2>
         <p class="section-subtitle">Speaking & Guest Appearances</p>
       </div>
 
@@ -33,35 +33,35 @@
 const events = [
   {
     tag: 'AI Agent',
-    title: 'OpenClaw AI Agent 大会 - 广州站',
-    description: '作为特邀嘉宾参与 AI Agent 主题分享，与行业顶尖专家探讨 AI Agent 在 Web3 领域的应用与未来',
-    date: '2026年4月20日',
-    location: '广州',
-    imageNote: '活动现场照片'
+    title: 'OpenClaw AI Agent Conference - Guangzhou',
+    description: 'Featured guest for an AI Agent-themed talk, exploring the application and future of AI Agents in the Web3 space with top industry experts.',
+    date: 'April 20, 2026',
+    location: 'Guangzhou',
+    imageNote: 'Event Photos'
   },
   {
     tag: 'AI Agent',
-    title: 'OpenClaw AI Agent 大会 - 珠海站',
-    description: '继续深度参与 AI Agent 技术讨论，分享个人在 AI + Web3 领域的实践经验',
-    date: '2026年4月21日',
-    location: '珠海',
-    imageNote: '活动现场照片'
+    title: 'OpenClaw AI Agent Conference - Zhuhai',
+    description: 'Continued in-depth discussion on AI Agent technology, sharing personal practical experience in AI + Web3.',
+    date: 'April 21, 2026',
+    location: 'Zhuhai',
+    imageNote: 'Event Photos'
   },
   {
     tag: 'Web3',
-    title: '大树财经高端论坛',
-    description: '作为新生代代表参与高端论坛，进行项目路演与闭门讨论，展示 Web3 领域的创新思维',
-    date: '2026年4月22日',
-    location: '线上 + 线下',
-    imageNote: '论坛现场照片'
+    title: 'Dashu Finance Premium Forum',
+    description: 'As a next-gen representative, joined the premium forum for project roadshow and closed-door discussions, showcasing innovative thinking in Web3.',
+    date: 'April 22, 2026',
+    location: 'Online + Offline',
+    imageNote: 'Forum Photos'
   },
   {
     tag: 'Blockchain',
-    title: '金色财经专访',
-    description: '接受金色财经专访，分享从世界冠军到 Web3 开发者的转型历程与心得',
-    date: '2026年',
-    location: '线上',
-    imageNote: '专访照片'
+    title: 'Jinse Finance Exclusive Interview',
+    description: 'Exclusive interview with Jinse Finance, sharing the journey and insights of transitioning from World Champion to Web3 developer.',
+    date: '2026',
+    location: 'Online',
+    imageNote: 'Interview Photos'
   }
 ]
 </script>

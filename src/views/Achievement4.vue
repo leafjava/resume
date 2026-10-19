@@ -1,18 +1,18 @@
 <template>
   <div class="achievement-container">
     <div class="header">
-      <h1>openclaw主题交流活动</h1>
+      <h1>OpenClaw Themed Discussion Event</h1>
       <p class="subtitle">OpenClaw & AI Era Discussion</p>
     </div>
-    
+
     <div class="description">
-      <p>很荣幸受邀作为嘉宾，参加Agent主题交流。与ClawOS联合创始人兼OpenClaw早期发起人Vito、至诚无间创始人方天义哥、万维肆零合伙人Patrick & Robin、Resomate创始人渡文、CpAi+ Advisor Loyal路遥、模力社区发起人江明超等几位大咖同台分享经验，收获颇多。</p>
-      <p>活动结束后还一起聚餐聊天，感受到大家对AI时代的热情与思考。感谢主办方和各位前辈的分享与指点，希望未来能与大家继续交流，共同拥抱AI时代！</p>
+      <p>Honored to be invited as a guest for the Agent-themed discussion. I shared the stage with Vito (Co-founder of ClawOS and early initiator of OpenClaw), Fang Tianyi (Founder of Zhicheng Wujian), Patrick & Robin (Partners of Wanwei Siling), Du Wen (Founder of Resomate), Loyal (CpAi+ Advisor, Lu Yao), Jiang Mingchao (Initiator of the Moli Community), and other top industry voices — an incredibly rewarding experience.</p>
+      <p>After the event, we gathered for dinner and chat, feeling everyone's passion and thinking about the AI era. Thanks to the organizers and all the seniors for their sharing and guidance — I hope to continue exchanging ideas in the future and embrace the AI era together!</p>
     </div>
-    
+
     <div class="image-gallery">
       <div v-for="index in 10" :key="index" class="image-item">
-        <img :src="getImageUrl(index)" :alt="`OpenClaw活动图片 ${index}`" />
+        <img :src="getImageUrl(index)" :alt="`OpenClaw Event Image ${index}`" />
       </div>
     </div>
   </div>

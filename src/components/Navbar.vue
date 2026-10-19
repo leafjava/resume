@@ -10,15 +10,15 @@
         <!-- <a href="#home" @click="closeMenu">Home</a> -->
         <a @click="routeToPage('/')">Home</a>
         <a @click="routeToPage('/gwdc')">GWDC Champion</a>
-        <a @click="routeToPage('/new-star')">新星计划 Top10</a>
-        <a @click="routeToPage('/achievement')">光渡·AI论坛</a>
-        <!-- <a @click="routeToPage('/achievement2')">香港开发者港湾</a> -->
-        <a @click="routeToPage('/achievement3')">ENI项目合作</a>
-        <a @click="routeToPage('/achievement4')">Agent主题分享</a>
+        <a @click="routeToPage('/new-star')">Injective Nova Top10</a>
+        <a @click="routeToPage('/achievement')">Light Crossing · AI Forum</a>
+        <!-- <a @click="routeToPage('/achievement2')">Developer Harbor HK</a> -->
+        <a @click="routeToPage('/achievement3')">ENI Project</a>
+        <a @click="routeToPage('/achievement4')">Agent Discussion</a>
         <a @click="routeToPage('/achievement5')">TON Builders Day</a>
-        <a @click="routeToPage('/feixiaohao')">非小号</a>
-        <a @click="routeToPage('/gaoxiaoxing')">大树财经高校行</a>
-        <a @click="routeToPage('/diwangxie')">帝王蟹亚军</a>
+        <a @click="routeToPage('/feixiaohao')">Feixiaohao</a>
+        <a @click="routeToPage('/gaoxiaoxing')">Dashu University Tour</a>
+        <a @click="routeToPage('/diwangxie')">King Crab Runner-up</a>
         <!-- <a href="#contact" @click="closeMenu">Contact</a> -->
       </div>
 

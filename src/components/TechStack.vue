@@ -2,7 +2,7 @@
   <section id="tech" class="tech-stack">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">技术栈</h2>
+        <h2 class="section-title">Tech Stack</h2>
         <p class="section-subtitle">Tech Stack & Skills</p>
       </div>
 
@@ -13,7 +13,7 @@
             <div v-for="tech in category.items" :key="tech.name" class="tech-item">
               <div class="tech-icon">{{ tech.icon }}</div>
               <span class="tech-name">{{ tech.name }}</span>
-              <span v-if="tech.learning" class="learning-badge">学习中</span>
+              <span v-if="tech.learning" class="learning-badge">Learning</span>
             </div>
           </div>
         </div>

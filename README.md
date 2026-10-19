@@ -1,76 +1,76 @@
-# Leaf | Lin Shen - 个人简介网站
+# Leaf | Lin Shen - Personal Portfolio Website
 
-> 世界冠军 × AI + Web3 新生代开发者
+> World Champion × AI + Web3 Next-Gen Developer
 
-## 🚀 项目简介
+## 🚀 Project Overview
 
-这是一个高端、专业、充满未来感的个人简介网站，专为 Web3 + AI 赛道设计。采用暗黑模式、科技感十足的赛博未来风格，完美展示个人成就、技术实力和影响力。
+A premium, professional, futuristic personal portfolio website designed for the Web3 + AI track. Featuring a dark mode and highly tech-savvy cyber-futuristic style, it perfectly showcases personal achievements, technical strength, and industry influence.
 
-## ✨ 特性
+## ✨ Features
 
-- 🎨 **暗黑科技风格** - 深黑背景 + 电光青/霓虹紫渐变
-- 🌟 **动态交互效果** - 平滑滚动、hover 动画、加载效果
-- 📱 **完美响应式** - 移动端、平板、桌面端完美适配
-- ⚡ **快速加载** - 基于 Vue 3 + Vite 构建
-- 🌐 **中英双语** - 支持中英文内容展示
-- 🎯 **模块化设计** - 易于维护和扩展
+- 🎨 **Dark Tech Aesthetic** - Deep black background + electric cyan / neon purple gradients
+- 🌟 **Dynamic Interactions** - Smooth scrolling, hover animations, loading effects
+- 📱 **Fully Responsive** - Perfect adaptation for mobile, tablet, and desktop
+- ⚡ **Fast Loading** - Built on Vue 3 + Vite
+- 🌐 **Bilingual Support** - English & Chinese content supported
+- 🎯 **Modular Design** - Easy to maintain and extend
 
-## 📦 技术栈
+## 📦 Tech Stack
 
-- **框架**: Vue 3 (Composition API)
-- **构建工具**: Vite
-- **样式**: CSS3 (原生 CSS Variables)
-- **字体**: Inter + Noto Sans SC
+- **Framework**: Vue 3 (Composition API)
+- **Build Tool**: Vite
+- **Styling**: CSS3 (Native CSS Variables)
+- **Fonts**: Inter + Noto Sans SC
 
-## 🛠️ 安装与运行
+## 🛠️ Installation & Run
 
-### 1. 安装依赖
+### 1. Install Dependencies
 
 ```bash
 cd resume
 npm install
 ```
 
-### 2. 启动开发服务器
+### 2. Start Dev Server
 
 ```bash
 npm run dev
 ```
 
-访问 `http://localhost:5173` 查看网站
+Visit `http://localhost:5173` to view the site.
 
-### 3. 构建生产版本
+### 3. Build for Production
 
 ```bash
 npm run build
 ```
 
-构建后的文件将在 `dist` 目录中
+Built files will be in the `dist` directory.
 
-### 4. 预览生产版本
+### 4. Preview Production Build
 
 ```bash
 npm run preview
 ```
 
-## 📝 自定义内容
+## 📝 Customizing Content
 
-### 修改个人信息
+### Modify Personal Info
 
-所有内容都在各个组件中，您可以根据需要修改：
+All content lives in the individual components. Edit as needed:
 
-1. **Hero.vue** - 首页标题、定位、Slogan
-2. **Achievements.vue** - 成就列表
-3. **Speaking.vue** - 演讲嘉宾经历
-4. **Projects.vue** - 项目展示
-5. **TechStack.vue** - 技术栈
-6. **About.vue** - 关于我
-7. **Contact.vue** - 联系方式
+1. **Hero.vue** - Home title, positioning, slogan
+2. **Achievements.vue** - Achievements list
+3. **Speaking.vue** - Speaking engagements
+4. **Projects.vue** - Project showcase
+5. **TechStack.vue** - Tech stack
+6. **About.vue** - About me
+7. **Contact.vue** - Contact info
 
-### 添加个人照片
+### Add Personal Photo
 
-1. 将您的头像图片放在 `public/images/` 目录下
-2. 在 `Hero.vue` 中替换 `.avatar-placeholder` 的内容：
+1. Place your avatar in `public/images/`
+2. Replace the `.avatar-placeholder` content in `Hero.vue`:
 
 ```vue
 <div class="avatar-placeholder">
@@ -78,9 +78,9 @@ npm run preview
 </div>
 ```
 
-### 添加活动照片
+### Add Event Photos
 
-在 `Speaking.vue` 中，将 `.image-placeholder` 替换为实际图片：
+In `Speaking.vue`, replace `.image-placeholder` with the actual image:
 
 ```vue
 <div class="event-image">
@@ -88,10 +88,10 @@ npm run preview
 </div>
 ```
 
-### 添加 PDF 简历
+### Add PDF Resume
 
-1. 将您的 PDF 简历放在 `public` 目录下，命名为 `resume.pdf`
-2. 在 `Hero.vue`、`FloatingButton.vue` 和 `Contact.vue` 中取消注释下载功能：
+1. Place your PDF resume in the `public` directory, named `resume.pdf`
+2. Uncomment the download function in `Hero.vue`, `FloatingButton.vue`, and `Contact.vue`:
 
 ```javascript
 const downloadResume = () => {
@@ -99,13 +99,13 @@ const downloadResume = () => {
 }
 ```
 
-### 修改联系方式
+### Update Contact Info
 
-在 `Contact.vue` 中更新 `contacts` 数组中的链接和信息。
+Update the `contacts` array in `Contact.vue` with your links and info.
 
-## 🎨 自定义样式
+## 🎨 Customizing Styles
 
-所有颜色变量定义在 `src/assets/base.css` 中：
+All color variables are defined in `src/assets/base.css`:
 
 ```css
 :root {
@@ -121,42 +121,42 @@ const downloadResume = () => {
 }
 ```
 
-## 📱 页面结构
+## 📱 Page Structure
 
-1. **Hero** - 首页/第一屏
-2. **Achievements** - 高光成就
-3. **Speaking** - 演讲嘉宾经历
-4. **Projects** - 精选项目
-5. **TechStack** - 技术栈
-6. **About** - 关于我
-7. **Contact** - 联系方式 + Footer
+1. **Hero** - Landing / First Screen
+2. **Achievements** - Highlight Achievements
+3. **Speaking** - Speaking Engagements
+4. **Projects** - Featured Projects
+5. **TechStack** - Tech Stack
+6. **About** - About Me
+7. **Contact** - Contact + Footer
 
-## 🚀 部署
+## 🚀 Deployment
 
-### Vercel (推荐)
+### Vercel (Recommended)
 
-1. 将代码推送到 GitHub
-2. 在 Vercel 中导入项目
-3. 自动部署完成
+1. Push code to GitHub
+2. Import the project in Vercel
+3. Auto-deploy complete
 
 ### Netlify
 
-1. 将代码推送到 GitHub
-2. 在 Netlify 中导入项目
-3. 构建命令: `npm run build`
-4. 发布目录: `dist`
+1. Push code to GitHub
+2. Import the project in Netlify
+3. Build command: `npm run build`
+4. Publish directory: `dist`
 
-### 其他静态托管
+### Other Static Hosts
 
-构建后将 `dist` 目录上传到任何静态托管服务即可。
+Build the project, then upload the `dist` directory to any static host.
 
-## 📄 许可证
+## 📄 License
 
 © 2026 Leaf | Lin Shen. All Rights Reserved.
 
-## 🤝 联系方式
+## 🤝 Contact
 
-如需技术支持或定制开发，请通过网站上的联系方式与我联系。
+For technical support or custom development, please reach out via the contact methods on the site.
 
 ---
 

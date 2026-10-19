@@ -6,13 +6,13 @@
     </div>
     
     <div class="description">
-      <p>与 TON 链团队 Yuki 深度交流，促成 <strong>TON 基金会亚太团队</strong> 与区块谷团队正式会谈近一小时，深入讨论 SkillsBay 产品。</p>
-      <p>受 TON 基金会亚太团队邀请，在香港 Web3 嘉年华中参与 TON AI Builders Day 活动现场 Demo 演示团队产品 SkillsBay。</p>
+      <p>Had an in-depth exchange with Yuki from the TON team, facilitating a nearly hour-long formal meeting between the <strong>TON Foundation APAC team</strong> and the Quyugu team to discuss the SkillsBay product in detail.</p>
+      <p>Invited by the TON Foundation APAC team, I participated in the TON AI Builders Day at the Hong Kong Web3 Festival to demo our team's product SkillsBay live on stage.</p>
     </div>
     
     <div class="image-gallery">
       <div v-for="index in 5" :key="index" class="image-item">
-        <img :src="getImageUrl(index)" :alt="`TON活动图片 ${index}`" />
+        <img :src="getImageUrl(index)" :alt="`TON Event Image ${index}`" />
       </div>
     </div>
   </div>

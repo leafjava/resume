@@ -2,48 +2,48 @@
   <section id="about" class="about">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">关于我</h2>
+        <h2 class="section-title">About Me</h2>
         <p class="section-subtitle">About Me</p>
       </div>
 
       <div class="about-content">
         <div class="about-text">
           <p class="intro-text">
-            我是<strong>Leaf（Lin Shen / Leaf）</strong>，一位从世界冠军赛场转战 AI + Web3 领域的新生代开发者与全栈工程师。
+            I'm <strong>Leaf (Lin Shen)</strong> — a next-gen developer and full-stack engineer who transitioned from the world champion stage to the AI + Web3 space.
           </p>
-          
+
           <p class="intro-text">
-            作为<strong>2026年世界冠军</strong>，我深知卓越源于持续的努力与创新。这种精神同样贯穿于我的技术生涯——从传统开发到区块链，从 Web2 到 Web3，从编码到影响力构建，我始终保持着冠军级的执行力与学习能力。
+            As a <strong>2026 World Champion</strong>, I deeply understand that excellence comes from continuous effort and innovation. This mindset runs through my entire tech career — from traditional development to blockchain, from Web2 to Web3, from coding to influence-building. I have always maintained a champion-level execution and learning ability.
           </p>
-          
+
           <p class="intro-text">
-            我拥有<strong>体制内深厚背景与香港圈资源</strong>，曾受邀参加全国政协相关活动，并作为特邀嘉宾活跃于金色财经、大树财经、OpenClaw AI Agent 大会等顶级平台。与哈佛大学研究员、清华大学区块链协会骨干、ClawOS 创始人等行业领袖的深度交流，让我能够站在更高的视角理解技术与商业的融合。
+            With a <strong>strong institutional background and deep connections in the Hong Kong circle</strong>, I've been invited to attend CPPCC-related events, and have been an active featured guest on top platforms like Jinse Finance, Dashu Finance, and the OpenClaw AI Agent Conference. In-depth exchanges with industry leaders — including Harvard researchers, Tsinghua Blockchain Association leaders, and the ClawOS founder — allow me to understand the convergence of technology and business from a higher vantage point.
           </p>
-          
+
           <p class="intro-text">
-            过去几个月，我高频输出个人品牌，专注于 <strong>AI Agent 与区块链领域的创新与落地</strong>。我相信，真正的价值不仅在于技术本身，更在于如何将顶级资源转化为实际项目价值，如何用技术连接现实世界与 Web3 未来。
+            Over the past months, I have been actively building my personal brand with a focus on <strong>innovation and real-world implementation in the AI Agent and blockchain space</strong>. I believe true value lies not just in the technology itself, but in how to convert top-tier resources into tangible project value — using technology to bridge the real world and the Web3 future.
           </p>
-          
+
           <div class="highlights">
             <div class="highlight-item">
               <span class="highlight-icon">🎯</span>
               <div>
-                <h4>核心优势</h4>
-                <p>年轻、执行力极强、跨圈层资源整合者</p>
+                <h4>Core Strengths</h4>
+                <p>Young, high execution, cross-ecosystem resource integrator</p>
               </div>
             </div>
             <div class="highlight-item">
               <span class="highlight-icon">🚀</span>
               <div>
-                <h4>技术方向</h4>
-                <p>AI Agent、区块链、全栈开发</p>
+                <h4>Tech Focus</h4>
+                <p>AI Agents, Blockchain, Full-Stack Development</p>
               </div>
             </div>
             <div class="highlight-item">
               <span class="highlight-icon">🌟</span>
               <div>
-                <h4>个人使命</h4>
-                <p>用技术与影响力连接下一代 Web3 未来</p>
+                <h4>Personal Mission</h4>
+                <p>Using technology and influence to connect the next generation of Web3</p>
               </div>
             </div>
           </div>
@@ -52,19 +52,19 @@
         <div class="about-stats">
           <div class="stat-card">
             <div class="stat-number">2026</div>
-            <div class="stat-label">世界冠军</div>
+            <div class="stat-label">World Champion</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">10+</div>
-            <div class="stat-label">技术栈</div>
+            <div class="stat-label">Tech Stacks</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">5+</div>
-            <div class="stat-label">精选项目</div>
+            <div class="stat-label">Featured Projects</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">∞</div>
-            <div class="stat-label">可能性</div>
+            <div class="stat-label">Possibilities</div>
           </div>
         </div>
       </div>

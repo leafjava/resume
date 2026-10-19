@@ -1,32 +1,32 @@
 <template>
   <div class="achievement-container">
     <div class="header">
-      <h1>Web3Labs × Injective × Microsoft 新星计划</h1>
+      <h1>Web3Labs × Injective × Microsoft Nova Program</h1>
       <p class="subtitle">Injective Nova Program · Global Top 10</p>
     </div>
 
     <div class="description">
       <p>
-        在 Injective、Microsoft 与 Web3Labs 联合举办的全球新星计划中，从 <strong>87 支队伍</strong>中脱颖而出，成功晋级 <strong>Top 10</strong>。
+        In the global Nova Program jointly organized by Injective, Microsoft, and Web3Labs, I stood out from <strong>87 teams</strong> to advance to the <strong>Top 10</strong>.
       </p>
       <p>
-        该计划汇聚全球优秀 Web3 开发者与创业者，旨在发掘和培养下一代区块链与 AI 领域的创新力量。
+        The program brings together outstanding Web3 developers and entrepreneurs worldwide, aiming to discover and cultivate the next generation of innovative talent in blockchain and AI.
       </p>
       <p>
-        通过多轮筛选与项目展示，最终跻身十强，获得行业顶级资源对接与导师指导机会。
+        Through multiple rounds of selection and project showcases, I made it to the final Top 10, gaining access to top-tier industry resources and mentorship.
       </p>
 
       <div class="link-button">
         <a href="https://injective.com/zh/blog/injective-nova-program-cn" target="_blank" rel="noopener noreferrer">
           <span class="icon">🔗</span>
-          <span class="text">查看官方介绍</span>
+          <span class="text">View Official Introduction</span>
         </a>
       </div>
     </div>
 
     <div class="image-gallery">
       <div v-for="index in 7" :key="index" class="image-item">
-        <img :src="getImageUrl(index)" :alt="`新星计划图片 ${index}`" />
+        <img :src="getImageUrl(index)" :alt="`Nova Program Image ${index}`" />
       </div>
     </div>
   </div>

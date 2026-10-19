@@ -1,18 +1,18 @@
 <template>
   <div class="achievement-container">
     <div class="header">
-      <h1>开发者港湾：AI时代的香港机遇</h1>
+      <h1>Developer Harbor: Hong Kong Opportunities in the AI Era</h1>
       <p class="subtitle">Developer Harbor: Hong Kong Opportunities in the AI Era</p>
     </div>
-    
+
     <div class="description">
-      <p>很高兴能在"开发者港湾：AI时代的香港机遇"活动中接受媒体采访，并且和全国政协吴杰庄议员沟通好几分钟关于OpenClaw项目的想法，希望后续继续推进。</p>
-      <p>和清华大学区块链协会、北京大学区块链协会沟通，与Web3Labs主办方CEO交流，还有OpenClaw成都负责人Timi沟通，和浙江大学区块链协会会长Freya沟通交流。</p>
+      <p>Honored to be interviewed by media at the "Developer Harbor: Hong Kong Opportunities in the AI Era" event, and to have a several-minute conversation with CPPCC member Mr. Ng Kit-chong about ideas for the OpenClaw project — looking forward to following up.</p>
+      <p>Exchanged ideas with the Tsinghua University Blockchain Association, the Peking University Blockchain Association, the CEO of Web3Labs (the organizer), Timi (OpenClaw Chengdu lead), and Freya (President of the Zhejiang University Blockchain Association).</p>
     </div>
-    
+
     <div class="image-gallery">
       <div v-for="(img, index) in images" :key="index" class="image-item">
-        <img :src="img.url" :alt="`开发者港湾活动图片 ${index + 1}`" />
+        <img :src="img.url" :alt="`Developer Harbor Event Image ${index + 1}`" />
       </div>
     </div>
   </div>

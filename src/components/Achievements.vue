@@ -2,7 +2,7 @@
   <section id="achievements" class="achievements">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">高光成就</h2>
+        <h2 class="section-title">Highlight Achievements</h2>
         <p class="section-subtitle">Achievements & Honors</p>
       </div>
 
@@ -25,38 +25,38 @@
 const achievements = [
   {
     icon: '🏆',
-    title: '2026年世界冠军',
-    description: '所在团队在国际顶级赛事中脱颖而出，击败来自全球的顶尖选手，荣获世界冠军殊荣',
+    title: '2026 World Champion',
+    description: 'My team stood out in a top-tier international competition, beating top competitors from around the world to win the World Champion title.',
     date: '2026'
   },
   // {
   //   icon: '🏛️',
-  //   title: '全国政协相关活动特邀嘉宾',
-  //   description: '受邀参加全国政协相关活动并合影留念，展现新生代影响力',
+  //   title: 'Invited Guest at CPPCC-related Events',
+  //   description: 'Invited to attend CPPCC-related events and take commemorative photos, showcasing the influence of the new generation.',
   //   date: '2026'
   // },
   {
     icon: '📰',
-    title: '金色财经特邀嘉宾',
-    description: '作为 Web3 领域新生代代表，受邀参与金色财经高端活动与专访',
+    title: 'Featured Guest at Jinse Finance',
+    description: 'As a next-gen representative in the Web3 space, invited to participate in Jinse Finance\'s premium events and interviews.',
     date: '2026'
   },
   {
     icon: '🌳',
-    title: '大树财经特邀嘉宾',
-    description: '在大树财经平台分享 AI + Web3 领域的前沿洞察与实践经验',
+    title: 'Featured Guest at Dashu Finance',
+    description: 'Sharing cutting-edge insights and practical experience in AI + Web3 on the Dashu Finance platform.',
     date: '2026'
   },
   {
     icon: '🤖',
-    title: 'OpenClaw AI Agent 大会嘉宾',
-    description: '广州站 & 珠海站特邀嘉宾，与行业顶尖专家深度交流 AI Agent 技术',
-    date: '2026年4月'
+    title: 'Guest at OpenClaw AI Agent Conference',
+    description: 'Featured guest at Guangzhou & Zhuhai sessions, engaging in-depth with industry experts on AI Agent technology.',
+    date: 'April 2026'
   },
   {
     icon: '🎓',
-    title: '顶级学术与行业交流',
-    description: '与哈佛大学研究员、清华大学区块链协会骨干、ClawOS 创始人等同台交流及闭门会议',
+    title: 'Top Academic & Industry Exchange',
+    description: 'On-stage exchange and closed-door meetings with Harvard researchers, Tsinghua Blockchain Association leaders, ClawOS founders, and other industry leaders.',
     date: '2026'
   }
 ]

@@ -2,7 +2,7 @@
   <section id="projects" class="projects">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">精选项目</h2>
+        <h2 class="section-title">Featured Projects</h2>
         <p class="section-subtitle">Featured Projects</p>
       </div>
 
@@ -10,7 +10,7 @@
         <div v-for="(project, index) in projects" :key="index" class="project-card" :class="{ 'featured': project.featured }">
           <div class="project-header">
             <div class="project-icon">{{ project.icon }}</div>
-            <span v-if="project.featured" class="featured-badge">主打项目</span>
+            <span v-if="project.featured" class="featured-badge">Flagship</span>
           </div>
           
           <h3 class="project-title">{{ project.title }}</h3>
@@ -52,8 +52,8 @@
 const projects = [
   {
     icon: '🏆',
-    title: '世界冠军链上成就展示 DApp',
-    description: '将世界冠军荣誉铸造为 NFT，通过区块链技术永久记录个人成就，展示 Web3 与现实世界的完美结合',
+    title: 'World Champion On-chain Achievement DApp',
+    description: 'Mint the World Champion honor as an NFT, permanently recording personal achievements on-chain — showcasing the perfect fusion of Web3 and the real world.',
     tech: ['Solidity', 'React', 'ethers.js', 'IPFS', 'Hardhat'],
     stats: [
       { label: 'NFT Minted', value: '100+' },
@@ -65,8 +65,8 @@ const projects = [
   },
   {
     icon: '🤖',
-    title: 'AI Agent 交易助手',
-    description: '基于 LangChain 开发的智能交易助手，帮助用户分析市场趋势，提供个性化投资建议',
+    title: 'AI Agent Trading Assistant',
+    description: 'An intelligent trading assistant built on LangChain that analyzes market trends and provides personalized investment recommendations.',
     tech: ['Python', 'LangChain', 'OpenAI', 'FastAPI'],
     stats: [
       { label: 'API Calls', value: '10K+' },
@@ -76,8 +76,8 @@ const projects = [
   },
   {
     icon: '💼',
-    title: 'Web3 项目管理平台',
-    description: '为 Web3 项目团队打造的协作平台，集成链上数据分析、任务管理、DAO 治理等功能',
+    title: 'Web3 Project Management Platform',
+    description: 'A collaboration platform built for Web3 project teams, integrating on-chain data analytics, task management, and DAO governance.',
     tech: ['Next.js', 'TypeScript', 'Tailwind', 'Web3.js'],
     stats: [
       { label: 'Projects', value: '50+' },
@@ -87,8 +87,8 @@ const projects = [
   },
   {
     icon: '📊',
-    title: 'DeFi 数据分析仪表板',
-    description: '实时追踪 DeFi 协议数据，提供可视化分析工具，帮助用户做出更明智的投资决策',
+    title: 'DeFi Data Analytics Dashboard',
+    description: 'Real-time tracking of DeFi protocol data with visualization tools to help users make smarter investment decisions.',
     tech: ['Vue.js', 'Chart.js', 'The Graph', 'Web3.js'],
     stats: [
       { label: 'Protocols', value: '30+' },

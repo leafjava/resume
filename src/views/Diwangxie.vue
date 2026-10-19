@@ -1,18 +1,16 @@
 <template>
   <div class="diwangxie-container">
     <div class="header">
-      <h1>网易智企 × ClawHive 帝王蟹 · 全国 Skill 技能大赛</h1>
-      <p class="subtitle">江苏镇江站 · 亚军 Runner-up</p>
+      <h1>NetEase Zhipin × ClawHive King Crab · National Skill Competition</h1>
+      <p class="subtitle">Zhenjiang, Jiangsu Stop · Runner-up</p>
     </div>
 
     <div class="description">
       <p>
-        2026 年 9 月，受邀参加 <strong>网易智企 × ClawHive 帝王蟹</strong> 在江苏镇江举办的
-        <strong>全国 Skill 技能大赛</strong>，从全国优秀开发者中脱颖而出，获得 <strong>亚军</strong>。
+        In September 2026, I was invited to participate in the <strong>NetEase Zhipin × ClawHive King Crab</strong> <strong>National Skill Competition</strong> held in Zhenjiang, Jiangsu, standing out among outstanding developers nationwide to win <strong>Runner-up</strong>.
       </p>
       <p>
-        大赛以 <strong>「智创赋能 · 蟹启新程」</strong> 为主题，聚焦 AI 技能开发与产业落地。
-        作为受邀嘉宾登台分享，并以 Skill 构建能力获得评委与同行认可。
+        The competition, themed <strong>"AI Empowerment · A New Journey Forward"</strong>, focused on AI skill development and industrial implementation. I took the stage as a featured guest to share and was recognized by judges and peers for my Skill-building capabilities.
       </p>
 
       <div class="link-button">
@@ -22,7 +20,7 @@
           rel="noopener noreferrer"
         >
           <span class="icon">📷</span>
-          <span class="text">查看官方活动相册</span>
+          <span class="text">View Official Event Album</span>
           <span class="arrow">→</span>
         </a>
       </div>
@@ -31,94 +29,93 @@
     <div class="info-grid">
       <div class="info-card">
         <div class="info-icon">🏆</div>
-        <div class="info-label">奖项</div>
-        <div class="info-value">亚军 Runner-up</div>
+        <div class="info-label">Award</div>
+        <div class="info-value">Runner-up</div>
       </div>
       <div class="info-card">
         <div class="info-icon">📅</div>
-        <div class="info-label">时间</div>
-        <div class="info-value">2026 年 9 月</div>
+        <div class="info-label">Date</div>
+        <div class="info-value">September 2026</div>
       </div>
       <div class="info-card">
         <div class="info-icon">📍</div>
-        <div class="info-label">地点</div>
-        <div class="info-value">江苏 · 镇江</div>
+        <div class="info-label">Location</div>
+        <div class="info-value">Zhenjiang, Jiangsu</div>
       </div>
       <div class="info-card">
         <div class="info-icon">🎯</div>
-        <div class="info-label">主题</div>
-        <div class="info-value">智创赋能 · 蟹启新程</div>
+        <div class="info-label">Theme</div>
+        <div class="info-value">AI Empowerment · A New Journey Forward</div>
       </div>
     </div>
 
     <h2 class="block-title">
       <span class="bar"></span>
-      获奖证书 · 水晶奖杯
+      Award Certificate & Crystal Trophy
       <span class="bar"></span>
     </h2>
 
     <div class="award-row">
       <div class="award-card">
         <div class="image-wrap">
-          <img :src="awardCert" alt="获奖证书" loading="lazy" />
+          <img :src="awardCert" alt="Award Certificate" loading="lazy" />
         </div>
         <div class="award-caption">
-          <span class="caption-tag">获奖证书</span>
-          <span class="caption-title">网易智企帝王蟹 ClawHive · 全国 Skill 技能大赛（镇江站）· 亚军</span>
+          <span class="caption-tag">Certificate</span>
+          <span class="caption-title">NetEase Zhipin King Crab ClawHive · National Skill Competition (Zhenjiang Stop) · Runner-up</span>
         </div>
       </div>
       <div class="award-card">
         <div class="image-wrap">
-          <img :src="awardTrophy" alt="水晶奖杯" loading="lazy" />
+          <img :src="awardTrophy" alt="Crystal Trophy" loading="lazy" />
         </div>
         <div class="award-caption">
-          <span class="caption-tag">水晶奖杯</span>
-          <span class="caption-title">ClawHive 帝王蟹 · 全国 Skill 技能大赛（镇江站）· 2026.09</span>
+          <span class="caption-tag">Trophy</span>
+          <span class="caption-title">ClawHive King Crab · National Skill Competition (Zhenjiang Stop) · 2026.09</span>
         </div>
       </div>
     </div>
 
     <h2 class="block-title">
       <span class="bar"></span>
-      现场高光
+      Onsite Highlights
       <span class="bar"></span>
     </h2>
 
     <div class="gallery-row">
       <div class="gallery-card">
         <div class="image-wrap">
-          <img :src="onStage" alt="颁奖现场" loading="lazy" />
+          <img :src="onStage" alt="Award Ceremony" loading="lazy" />
         </div>
         <div class="gallery-caption">
-          <span class="caption-tag">颁奖现场</span>
-          <span class="caption-title">手持证书与奖杯登台</span>
+          <span class="caption-tag">Award Ceremony</span>
+          <span class="caption-title">On stage with the certificate and trophy</span>
         </div>
       </div>
       <div class="gallery-card">
         <div class="image-wrap">
-          <img :src="speaking" alt="主题演讲" loading="lazy" />
+          <img :src="speaking" alt="Keynote Speech" loading="lazy" />
         </div>
         <div class="gallery-caption">
-          <span class="caption-tag">主题分享</span>
-          <span class="caption-title">现场主题演讲 · 智创赋能</span>
+          <span class="caption-tag">Keynote</span>
+          <span class="caption-title">Onsite keynote · AI Empowerment</span>
         </div>
       </div>
     </div>
 
     <div class="closing">
       <p>
-        从 <strong>网易智企 × ClawHive 帝王蟹</strong> 的镇江站出发，与全国顶尖开发者同台竞技，
-        收获的不仅是一份亚军证书，更是从 <strong>0 到 1 构建 Skill、从创意到落地</strong> 的实战经验。
+        Starting from the Zhenjiang stop of <strong>NetEase Zhipin × ClawHive King Crab</strong>, competing on the same stage with top developers nationwide, I gained not just a runner-up certificate but also real-world experience of <strong>building Skills from 0 to 1, from idea to implementation</strong>.
       </p>
       <div class="hashtags">
-        <span>#网易智企</span>
+        <span>#NetEaseZhipin</span>
         <span>#ClawHive</span>
-        <span>#帝王蟹</span>
-        <span>#Skill技能大赛</span>
-        <span>#亚军</span>
-        <span>#智创赋能</span>
+        <span>#KingCrab</span>
+        <span>#SkillCompetition</span>
+        <span>#RunnerUp</span>
+        <span>#AIEmpowerment</span>
         <span>#AI</span>
-        <span>#镇江</span>
+        <span>#Zhenjiang</span>
       </div>
     </div>
   </div>

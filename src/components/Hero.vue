@@ -14,24 +14,24 @@
           </h1>
           
           <div class="hero-position">
-            <h2 class="position-main">世界冠军 × AI + Web3 新生代开发者</h2>
-            <p class="position-sub">金色财经 / 大树财经 / OpenClaw 特邀嘉宾</p>
+            <h2 class="position-main">World Champion × AI + Web3 Next-Gen Developer</h2>
+            <p class="position-sub">Featured Guest at Jinse Finance / Dashu Finance / OpenClaw</p>
           </div>
-          
+
           <p class="hero-slogan">
-             GWDC 2026 Hackathon 圆满落幕，来自全球 8 个国家和地区的 35 支团队、超过 120 名开发者齐聚香港。<br/>
-            我所在团队获得 GWDC Conflux 链冠军，在国际化 Web3 开发者舞台中脱颖而出。 
+            The GWDC 2026 Hackathon has successfully concluded, bringing together 35 teams and over 120 developers from 8 countries and regions to Hong Kong.<br/>
+            My team won the GWDC Conflux Track Champion, standing out on the international Web3 developer stage.
           </p>
-          
+
           <div class="hero-buttons">
             <a href="#" class="btn btn-primary" @click.prevent="downloadResume">
-              <span>查看 PDF 简历</span>
+              <span>Download PDF Resume</span>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path d="M10 12.5L6.25 8.75L7.5 7.4375L9.375 9.3125V2.5H10.625V9.3125L12.5 7.4375L13.75 8.75L10 12.5ZM5 17.5C4.3125 17.5 3.72396 17.2552 3.23438 16.7656C2.74479 16.276 2.5 15.6875 2.5 15V12.5H3.75V15C3.75 15.3438 3.86979 15.6406 4.10938 15.8906C4.34896 16.1406 4.64583 16.2656 5 16.2656H15C15.3438 16.2656 15.6406 16.1406 15.8906 15.8906C16.1406 15.6406 16.2656 15.3438 16.2656 15V12.5H17.5V15C17.5 15.6875 17.2552 16.276 16.7656 16.7656C16.276 17.2552 15.6875 17.5 15 17.5H5Z" fill="currentColor"/>
               </svg>
             </a>
             <a href="#contact" class="btn btn-secondary">
-              <span>联系我</span>
+              <span>Contact Me</span>
             </a>
           </div>
         </div>
@@ -58,10 +58,10 @@
       </div>
     </section>
 
-    <!-- 冠军图片区域 -->
+    <!-- Champion Image Section -->
     <div class="champion-showcase">
       <div class="champion-image-wrapper" @click="routeToPage('/gwdc')">
-        <img src="@/assets/image/chanpions.jpg" alt="世界冠军" class="champion-photo" />
+        <img src="@/assets/image/chanpions.jpg" alt="World Champion" class="champion-photo" />
         <div class="champion-overlay">
           <span class="champion-badge">🏆 World Champion 2026</span>
         </div>
@@ -75,7 +75,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 const downloadResume = () => {
-  alert('PDF 简历下载功能 - 请将您的简历 PDF 放在 public 文件夹中')
+  alert('PDF Resume Download - Please place your resume PDF in the public folder')
   // window.open('/resume.pdf', '_blank')
 }
 

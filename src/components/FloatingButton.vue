@@ -14,7 +14,7 @@
         <line x1="9" y1="15" x2="12" y2="18"/>
         <line x1="15" y1="15" x2="12" y2="18"/>
       </svg>
-      <span class="btn-tooltip">下载简历</span>
+      <span class="btn-tooltip">Download Resume</span>
     </button>
   </div>
 </template>
@@ -36,7 +36,7 @@ const scrollToTop = () => {
 }
 
 const downloadResume = () => {
-  alert('PDF 简历下载功能 - 请将您的简历 PDF 放在 public 文件夹中')
+  alert('PDF Resume Download - Please place your resume PDF in the public folder')
   // window.open('/resume.pdf', '_blank')
 }
 
